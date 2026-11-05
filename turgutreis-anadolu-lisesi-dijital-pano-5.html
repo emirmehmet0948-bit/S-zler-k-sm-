@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sözün İzinde | Turgutreis Anadolu Lisesi Dijital Kelime Panosu</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<style>
+:root{--mavi:#0B3C8F;--koyu:#0D1B3A;--sari:#FFD92E;--kirmizi:#D32027;--zemin:#F5F6F9;--cizgi:#CDD3E0;--soluk:#58627A;--fosfor:#FFF0A0;
+--serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;--sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:60px}
+body{font-family:var(--serif);font-size:1.08rem;line-height:1.7;background:var(--zemin);color:var(--koyu)}
+:focus-visible{outline:3px solid var(--kirmizi);outline-offset:3px}
+
+.hero{background:var(--mavi);color:#fff;position:relative;padding:52px 22px 84px}
+.hero:after{content:"";position:absolute;left:0;right:0;bottom:0;height:18px;background:linear-gradient(var(--sari) 0 9px,var(--kirmizi) 9px)}
+.hero-ic{max-width:1040px;margin:0 auto;display:grid;gap:48px;grid-template-columns:1.5fr 1fr;align-items:center}
+@media(max-width:820px){.hero-ic{grid-template-columns:1fr}.pin{transform:rotate(1.5deg)}}
+.marka{display:flex;align-items:center;gap:16px;margin-bottom:38px}
+.marka img{width:72px;height:auto;display:block}
+.marka p{font:.9rem/1.45 var(--sans);color:#C9D6F2}
+.marka b{display:block;color:#fff;font-size:1rem}
+h1{font-size:clamp(3.6rem,12vw,7.2rem);line-height:.92;letter-spacing:-.025em;font-weight:700}
+.altyazi{max-width:30em;margin-top:28px;font-size:1.18rem;color:#E3EAF9}
+.git{display:inline-block;margin-top:30px;padding:13px 22px;background:var(--sari);color:var(--koyu);font:700 1rem var(--sans);text-decoration:none}
+.git:hover{background:#fff}
+.pin,.duvar details{position:relative;background:#fff;color:var(--koyu)}
+.pin:before,.duvar details:before{content:"";position:absolute;top:-8px;left:calc(50% - 7px);width:14px;height:14px;border-radius:50%;background:var(--kirmizi);box-shadow:inset -2px -2px 0 rgba(0,0,0,.3),0 3px 4px rgba(0,0,0,.25);z-index:1}
+.pin{padding:34px 28px 28px;transform:rotate(3deg);box-shadow:9px 11px 0 rgba(0,0,0,.2);max-width:360px;justify-self:center}
+.pin .k{font-size:2.6rem;font-weight:700;color:var(--kirmizi);line-height:1.1;margin-bottom:6px}
+
+nav{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--cizgi)}
+nav div{max-width:1040px;margin:0 auto;padding:0 22px;display:flex;gap:24px;overflow-x:auto}
+nav a{font:.93rem var(--sans);color:var(--koyu);text-decoration:none;white-space:nowrap;padding:15px 0}
+nav a:hover{box-shadow:inset 0 -4px var(--sari)}
+
+main{max-width:1040px;margin:0 auto;padding:0 22px}
+section{padding:80px 0 0}
+h2{font-size:clamp(2rem,5vw,3rem);line-height:1.12;color:var(--mavi);margin-bottom:10px}
+h3{font-size:1.25rem;margin:22px 0 4px}
+.tarih{display:inline-block;background:var(--sari);color:var(--koyu);font:700 .88rem var(--sans);padding:3px 11px;margin-bottom:14px;transform:rotate(-1.5deg)}
+.giris{max-width:38em;margin-top:10px}
+
+ol.adim{list-style:none;counter-reset:a;margin-top:30px;display:grid;gap:0 34px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+ol.adim li{counter-increment:a;border-top:6px solid var(--mavi);padding:10px 0 24px}
+ol.adim li:nth-child(3n+2){border-color:var(--sari)}
+ol.adim li:nth-child(3n){border-color:var(--kirmizi)}
+ol.adim li:before{content:counter(a);display:block;font-size:2.8rem;line-height:1;font-weight:700;color:var(--mavi);margin-bottom:6px}
+ol.adim b{font-size:1.15rem}
+ol.adim span{display:block;margin-top:3px}
+.sablon{margin-top:32px;padding:8px 28px 12px;background:#fff;border:1px solid var(--cizgi);border-left:8px solid var(--kirmizi);transform:rotate(-.4deg);box-shadow:7px 7px 0 var(--cizgi)}
+.sablon ol.adim{margin-top:14px}
+
+details{border-bottom:1px solid var(--cizgi)}
+summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;padding:15px 2px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";font:1.5rem/1 var(--sans);color:var(--kirmizi)}
+details[open] summary:after{content:"\2212"}
+summary:hover{background:var(--fosfor)}
+.govde{padding:2px 2px 20px}
+.govde p+p{margin-top:8px}
+
+#av{background:var(--mavi);color:#fff;margin-top:80px;padding-bottom:84px;box-shadow:0 0 0 100vmax var(--mavi);clip-path:inset(0 -100vmax)}
+#av h2{color:#fff}
+.av{margin-top:26px;max-width:48em}
+.av details{border-bottom:1px solid rgba(255,255,255,.3)}
+.av summary{font-weight:600}
+.av summary:after{color:var(--sari)}
+.av summary:hover{background:var(--sari);color:var(--koyu)}
+.av .govde b{color:var(--sari)}
+
+.duvar{margin-top:38px;display:grid;gap:40px 26px;grid-template-columns:repeat(auto-fill,minmax(235px,1fr));align-items:start}
+.duvar details{border:0;border-top:7px solid var(--mavi);padding:4px 20px 2px;box-shadow:5px 6px 0 rgba(13,27,58,.13);transition:transform .2s}
+.duvar details:before{background:var(--koyu)}
+.duvar details:nth-child(3n+2){border-top-color:var(--sari)}
+.duvar details:nth-child(3n){border-top-color:var(--kirmizi)}
+.duvar details:nth-child(odd){transform:rotate(-.9deg)}
+.duvar details:nth-child(even){transform:rotate(.8deg)}
+.duvar details:nth-child(5n){transform:rotate(1.4deg)}
+.duvar details:hover,.duvar details[open]{transform:none;z-index:2}
+.duvar summary{font-size:1.55rem;font-weight:700;color:var(--mavi);padding:18px 0 14px}
+.duvar summary:hover{background:none}
+.es{font:.9rem var(--sans);color:var(--soluk);margin:8px 0 12px}
+.ornek{border-left:3px solid var(--kirmizi);padding-left:14px;font-style:italic}
+
+.akis{margin-top:26px;max-width:50em}
+.akis p{display:grid;grid-template-columns:150px 1fr;gap:14px;padding:14px 0;border-top:1px solid var(--cizgi)}
+@media(max-width:560px){.akis p{grid-template-columns:1fr;gap:2px}}
+.akis b{font:700 .95rem var(--sans);color:var(--mavi);padding-top:4px}
+.ilke{margin-top:28px;max-width:50em;padding:16px 20px;background:var(--sari);border-left:8px solid var(--kirmizi)}
+
+.ekip{margin-top:26px;display:grid;gap:24px 34px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.ekip p{border-top:5px solid var(--mavi);padding-top:10px}
+.ekip b{font:.9rem var(--sans);color:var(--soluk)}
+
+footer{margin-top:90px;background:var(--koyu);color:#B9C4DD;font:.9rem/1.7 var(--sans);padding:36px max(22px,calc((100% - 1040px)/2)) 52px;border-top:8px solid var(--kirmizi)}
+footer b{color:#fff}
+
+#intro{position:fixed;inset:0;z-index:100;background:var(--mavi);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;transition:transform .8s cubic-bezier(.7,0,.2,1)}
+#intro.cik{transform:translateY(-100%)}
+#intro img{width:clamp(120px,22vw,170px);height:auto;opacity:0;animation:belir .7s .15s forwards}
+#intro .okul{font:.95rem var(--sans);margin-top:18px;opacity:0;animation:belir .7s .5s forwards;color:#C9D6F2}
+#introWord{height:1.3em;margin-top:34px;font-size:clamp(1.8rem,6vw,2.8rem);line-height:1.3;opacity:0;transition:opacity .35s}
+#introWord.goster{opacity:1}
+#introWord.son{font-weight:700;font-size:clamp(2.4rem,9vw,4.4rem);line-height:1.1;height:1.1em;margin-top:28px;color:var(--sari)}
+#gec{position:absolute;right:22px;bottom:22px;background:none;border:1px solid #7C98CF;color:#fff;padding:9px 16px;font:.9rem var(--sans);cursor:pointer}
+#gec:hover{background:var(--sari);color:var(--koyu);border-color:var(--sari)}
+html.intro-on,html.intro-on body{overflow:hidden}
+@keyframes belir{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.duvar details{transition:none}}
+
+/* Goca Moğla kültür panosu */
+#kadim-sozler{padding-bottom:76px}
+#kadim-sozler .bolum-giris{max-width:48em;color:var(--soluk);margin:10px 0 30px}
+.kultur-kart{background:#fff;border:1px solid var(--cizgi);border-top:7px solid var(--mavi);padding:22px 24px;margin:24px 0;box-shadow:5px 6px 0 rgba(13,27,58,.09)}
+.kultur-kart:nth-of-type(odd){border-top-color:var(--sari)}
+.kultur-kart h3{font-size:1.45rem;color:var(--mavi);margin:0 0 14px}
+.kultur-kart .aciklama{font:.92rem/1.6 var(--sans);color:var(--soluk);margin:-6px 0 16px}
+.kultur-liste{list-style:none;display:grid;gap:0 28px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.kultur-liste li{padding:12px 0;border-top:1px solid var(--cizgi)}
+.kultur-liste strong{color:var(--mavi)}
+.kultur-liste p{margin-top:4px}
+.kultur-alinti{border-left:4px solid var(--kirmizi);padding:10px 14px;background:#F7F8FB;margin:10px 0;font-size:1.05rem}
+.kultur-alinti small{display:block;font: .88rem/1.5 var(--sans);color:var(--soluk);margin-top:5px}
+.kultur-sozluk{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 22px}
+.kultur-sozluk p{padding:8px 0;border-bottom:1px solid var(--cizgi);font-size:.98rem}
+.kultur-sozluk b{color:var(--mavi)}
+.kultur-kapanis{background:var(--mavi);color:#fff;padding:28px;margin-top:30px;border-bottom:8px solid var(--sari)}
+.kultur-kapanis h3{color:var(--sari);margin:0 0 8px;font-size:1.8rem}
+.kultur-kapanis p{max-width:48em}
+@media(max-width:760px){.kultur-sozluk{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.kultur-sozluk{grid-template-columns:1fr}.kultur-kart{padding:18px 16px}.kultur-liste{grid-template-columns:1fr}}
+
+</style>
+</head>
+<body>
+<div id="intro" role="dialog" aria-label="Açılış">
+<img src="data:image/png;base64,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" alt="Muğla 1864 Turgut Reis Anadolu Lisesi logosu">
+<p class="okul">Turgutreis Anadolu Lisesi</p>
+<p id="introWord" aria-live="off"></p>
+<button id="gec" type="button">Geç</button>
+</div>
+<noscript><style>#intro{display:none}
+/* Goca Moğla kültür panosu */
+#kadim-sozler{padding-bottom:76px}
+#kadim-sozler .bolum-giris{max-width:48em;color:var(--soluk);margin:10px 0 30px}
+.kultur-kart{background:#fff;border:1px solid var(--cizgi);border-top:7px solid var(--mavi);padding:22px 24px;margin:24px 0;box-shadow:5px 6px 0 rgba(13,27,58,.09)}
+.kultur-kart:nth-of-type(odd){border-top-color:var(--sari)}
+.kultur-kart h3{font-size:1.45rem;color:var(--mavi);margin:0 0 14px}
+.kultur-kart .aciklama{font:.92rem/1.6 var(--sans);color:var(--soluk);margin:-6px 0 16px}
+.kultur-liste{list-style:none;display:grid;gap:0 28px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.kultur-liste li{padding:12px 0;border-top:1px solid var(--cizgi)}
+.kultur-liste strong{color:var(--mavi)}
+.kultur-liste p{margin-top:4px}
+.kultur-alinti{border-left:4px solid var(--kirmizi);padding:10px 14px;background:#F7F8FB;margin:10px 0;font-size:1.05rem}
+.kultur-alinti small{display:block;font: .88rem/1.5 var(--sans);color:var(--soluk);margin-top:5px}
+.kultur-sozluk{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 22px}
+.kultur-sozluk p{padding:8px 0;border-bottom:1px solid var(--cizgi);font-size:.98rem}
+.kultur-sozluk b{color:var(--mavi)}
+.kultur-kapanis{background:var(--mavi);color:#fff;padding:28px;margin-top:30px;border-bottom:8px solid var(--sari)}
+.kultur-kapanis h3{color:var(--sari);margin:0 0 8px;font-size:1.8rem}
+.kultur-kapanis p{max-width:48em}
+@media(max-width:760px){.kultur-sozluk{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.kultur-sozluk{grid-template-columns:1fr}.kultur-kart{padding:18px 16px}.kultur-liste{grid-template-columns:1fr}}
+
+</style></noscript>
+<script>
+(function(){
+var el=document.getElementById("intro");
+var seen=false;try{seen=sessionStorage.getItem("introGoruldu")==="1";}catch(e){}
+var azalt=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+if(seen||azalt){el.remove();return;}
+var root=document.documentElement,w=document.getElementById("introWord"),bitti=false,zamanlar=[];
+root.classList.add("intro-on");
+var sozler=["hasret","vefâ","kadîm","ahenk","Sözün İzinde"];
+sozler.forEach(function(t,i){
+  zamanlar.push(setTimeout(function(){
+    w.classList.remove("goster");
+    zamanlar.push(setTimeout(function(){
+      w.textContent=t;
+      w.classList.toggle("son",i===sozler.length-1);
+      w.classList.add("goster");
+    },200));
+  },900+i*700));
+});
+zamanlar.push(setTimeout(kapat,900+sozler.length*700+900));
+function kapat(){
+  if(bitti)return;bitti=true;
+  zamanlar.forEach(clearTimeout);
+  try{sessionStorage.setItem("introGoruldu","1");}catch(e){}
+  el.classList.add("cik");
+  root.classList.remove("intro-on");
+  setTimeout(function(){el.remove();},900);
+}
+document.getElementById("gec").addEventListener("click",kapat);
+document.addEventListener("keydown",function(e){if(e.key==="Escape"||e.key==="Enter")kapat();});
+document.getElementById("gec").focus();
+})();
+</script>
+
+<header class="hero"><div class="hero-ic">
+<div>
+<div class="marka"><img src="data:image/png;base64,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" alt="Muğla 1864 Turgut Reis Anadolu Lisesi logosu"><p><b>Turgutreis Anadolu Lisesi</b>T.C. Millî Eğitim Bakanlığı, Dilimizin Zenginlikleri Projesi</p></div>
+<h1>Sözün<br>İzinde</h1>
+<p class="altyazi">Kadim kelimeler, yeni bakışlar. Turgutreis Anadolu Lisesi’nin Türkçenin söz varlığını keşfettiği, araştırdığı ve birlikte büyüttüğü dijital kelime panosu.</p>
+<a class="git" href="#kelime-duvari">Kelime Duvarı’na git</a>
+</div>
+<aside class="pin" aria-label="Örnek kelime kartı"><p class="k">kadîm</p><p>Çok eski, eskiden beri var olan.</p><p class="es">eş anlamlı: eski &nbsp;&nbsp; zıt anlamlı: yeni</p><p class="ornek">Şehrin kadîm sokakları, geçmişin izlerini hâlâ taşır.</p></aside>
+</div></header>
+<nav><div><a href="#pano">Pano</a><a href="#kelime-duvari">Kelime Duvarı</a><a href="#kadim-sozler">Goca Moğla’nın Kadim Sözleri</a><a href="#ekip">Ekip</a></div></nav>
+<main>
+
+<section id="pano">
+<h2>Bu pano nedir?</h2>
+<p class="giris">Sınıfın ortak kelime çalışma alanı. Basılı panodaki QR kodu okutunca buraya ulaşırsın. Kelime araştırır, anlamını bağlam içinde inceler, örnek cümle yazar ve Kelime Duvarı’nı birlikte zenginleştirirsin.</p>
+<ol class="adim">
+<li><b>Keşfet</b><span>Klasik metinlerden ve günlük hayattan ilgi çekici kelimeler seçilir.</span></li>
+<li><b>Araştır</b><span>Sözlük anlamı, kullanım alanı, eş ve zıt anlamlılar incelenir.</span></li>
+<li><b>Paylaş</b><span>Öğrenci cümleleri ve görsel yorumları dijital panoya eklenir.</span></li>
+<li><b>Kalıcılaştır</b><span>Seçilen çalışmalar Kelime Duvarı’nda ve okul panosunda sergilenir.</span></li>
+</ol>
+</section>
+
+
+
+
+<section id="kelime-duvari">
+<h2>Kelime Duvarı</h2>
+<p class="giris">Sınıfın ortak sözlüğü. Bir kelimeye dokunup anlamını, eş ve zıt anlamlılarını, örnek cümlesini gör.</p>
+<div class="duvar">
+<details><summary>hasret</summary><div class="govde"><p>Görmeyi, kavuşmayı çok istediği birini ya da bir yeri özleme duygusu.</p><p class="es">eş anlamlı: özlem &nbsp;&nbsp; zıt anlamlı: vuslat</p><p class="ornek">Yıllardır görmediği köyüne duyduğu hasret, mektubunun her satırına yansımıştı.</p></div></details>
+<details><summary>vefâ</summary><div class="govde"><p>Sevgide, dostlukta sözünde durma; bağlılığı sürdürme.</p><p class="es">eş anlamlı: sadakat &nbsp;&nbsp; zıt anlamlı: vefasızlık</p><p class="ornek">Zor günlerinde arkadaşına sahip çıkan öğrenci, vefânın ne demek olduğunu gösterdi.</p></div></details>
+<details><summary>mütevazî</summary><div class="govde"><p>Kendini başkalarından üstün görmeyen, alçakgönüllü.</p><p class="es">eş anlamlı: alçakgönüllü &nbsp;&nbsp; zıt anlamlı: kibirli</p><p class="ornek">Başarısına rağmen mütevazî davranan öğrenci, herkesin takdirini kazandı.</p></div></details>
+<details><summary>âşinâ</summary><div class="govde"><p>Önceden bilinen, tanıdık, bildik.</p><p class="es">eş anlamlı: tanıdık &nbsp;&nbsp; zıt anlamlı: yabancı</p><p class="ornek">Eski mahallesindeki sokaklar ona son derece âşinâ geliyordu.</p></div></details>
+<details><summary>beyhûde</summary><div class="govde"><p>Boşuna, yararsız, sonuç vermeyen.</p><p class="es">eş anlamlı: nâfile &nbsp;&nbsp; zıt anlamlı: yararlı</p><p class="ornek">Plan yapmadan çalışmak, beyhûde bir çabaya dönüşebilir.</p></div></details>
+<details><summary>nâdide</summary><div class="govde"><p>Az bulunan, ender ve değerli.</p><p class="es">eş anlamlı: ender &nbsp;&nbsp; zıt anlamlı: sıradan</p><p class="ornek">Kütüphanedeki nâdide eserler, araştırmacıların ilgisini çekiyordu.</p></div></details>
+<details><summary>kadîm</summary><div class="govde"><p>Çok eski, eskiden beri var olan.</p><p class="es">eş anlamlı: eski &nbsp;&nbsp; zıt anlamlı: yeni</p><p class="ornek">Şehrin kadîm sokakları, geçmişin izlerini hâlâ taşır.</p></div></details>
+<details><summary>ahenk</summary><div class="govde"><p>Seslerin, renklerin ya da parçaların birbirine uyumu.</p><p class="es">eş anlamlı: uyum &nbsp;&nbsp; zıt anlamlı: uyumsuzluk</p><p class="ornek">Şiirin ahengi, okunduğunda dinleyeni etkiliyordu.</p></div></details>
+<details><summary>muğlâk</summary><div class="govde"><p>Anlaşılması güç, ne demek istediği belli olmayan.</p><p class="es">eş anlamlı: müphem &nbsp;&nbsp; zıt anlamlı: açık</p><p class="ornek">Muğlâk bir ifade yerine net bir açıklama yapmak daha iyidir.</p></div></details>
+<details><summary>mahzûn</summary><div class="govde"><p>Hüzünlü, üzgün, boynu bükük.</p><p class="es">eş anlamlı: kederli &nbsp;&nbsp; zıt anlamlı: neşeli</p><p class="ornek">Ayrılığın ardından mahzûn bir melodi çalıyordu.</p></div></details>
+<details><summary>müşfik</summary><div class="govde"><p>Şefkatli, sevgi ve koruma duygusu taşıyan.</p><p class="es">eş anlamlı: sevecen &nbsp;&nbsp; zıt anlamlı: merhametsiz</p><p class="ornek">Müşfik öğretmeni, zor günündeki öğrencisinin yanında durdu.</p></div></details>
+<details><summary>itinâ</summary><div class="govde"><p>Bir işi dikkatle, özenle yapma.</p><p class="es">eş anlamlı: özen &nbsp;&nbsp; zıt anlamlı: özensizlik</p><p class="ornek">Eserlerin restorasyonu büyük bir itinâ ile sürdürüldü.</p></div></details>
+</div>
+</section>
+
+
+
+
+<section id="kadim-sozler">
+<p class="tarih">YEREL KÜLTÜR MİRASI</p>
+<h2>GOCA MOĞLA’NIN KADİM SÖZLERİ</h2>
+<h3 style="font-size:clamp(1.6rem,4vw,2.35rem);color:var(--kirmizi);margin-top:0">“DE GİDİ DE !”</h3>
+<p class="bolum-giris">Bir şehrin hafızası yalnızca taşlarında ve sokaklarında değil; insanlarının dilinde, sözlerinde ve hatıralarında yaşar. Muğla’nın kuşaktan kuşağa aktarılan kadim sözlerine, yöresel kelimelerine ve annelerimizin dilimize kazandırdığı unutulmaz ifadelere kulak verelim.</p>
+
+<div class="kultur-kart">
+<h3>01 · Atasözleri ve Deyimler</h3>
+<p class="aciklama">Goca Muğla’nın hayat tecrübesi, mizahı ve bilgeliği…</p>
+<ul class="kultur-liste">
+<li><strong>Ev yaparsan tuğladan, kız alırsan Muğla'dan.</strong><p>Muğla’nın en ünlü atasözüdür; kadınların iyi özelliklerini vurgular.</p></li>
+<li><strong>Görgüsüzden hamur alacağına eğil de yerden çamur al.</strong><p>Sonradan görme ve kibirli insanlardan yardım istemektense zor durumda kalmayı tercih etmenin onurlu olduğunu ifade eder.</p></li>
+<li><strong>Saç düzen aldı hamur tükendi, iş düzen aldı ömür tükendi</strong><p>Hayatın akışını ve kaçırılan fırsatları özetler.</p></li>
+<li><strong>Ölüm var deme yastığa düşmeyince, buğdayım var deme ambara girmeyince.</strong><p>Kesinlik için bir şeyin tamamen gerçekleşmesi gerektiğini anlatır.</p></li>
+<li><strong>Çam pürçeğinden oğul olmaz, el oğlundan evlat olmaz.</strong><p>Çam iğnelerinden sağlam yapı olmayacağı gibi öz evlat olmayandan da aynı vefanın beklenemeyeceğini anlatır.</p></li>
+<li><strong>Yaz yağmuru yalancı, güz yağmuru dilenci</strong><p>Yaz yağmurunun kısa ve aldatıcı, güz yağmurunun ise inatçı ve sürekli olduğunu ifade eder.</p></li>
+<li><strong>Taharına aşı kaşığınaan her şey yakışığınaan.</strong></li>
+<li><strong>Oğlanlanlaaan hası<br>Galeylenmiş taşı<br>Her yanları anası<br>Undan seveee bubası</strong></li>
+<li><strong>Hora geçmek:</strong><p>Tam zamanında olmak, makbule geçmek.</p></li>
+<li><strong>Goley gele!:</strong><p>Kolay gelsin.</p></li>
+<li><strong>Tutugo dedim yudugumuş:</strong><p>Süre durması için verilen yiyeceği hemen yiyivermek.</p></li>
+<li><strong>Mısmıtıl tamşa olduk:</strong><p>Hepten rezil olduk, kötü duruma düştük.</p></li>
+</ul>
+</div>
+
+<div class="kultur-kart">
+<h3>02 · Annelerimiz Kızınca…</h3>
+<p class="aciklama">Muğlalı annelerin unutulmaz, kendine has ve biraz da sert sözleri…</p>
+<div class="kultur-liste">
+<div class="kultur-alinti">“Gademsizin çocuuuu!”</div>
+<div class="kultur-alinti">“Cavirin eniii!”</div>
+<div class="kultur-alinti">“Gösteririn ben sene ağız körlemeyi.”</div>
+<div class="kultur-alinti">“Canımı doydum”</div>
+<div class="kultur-alinti">“Gara cannaama doydunuz.”</div>
+<div class="kultur-alinti">“Abu nere giden gelen beeen!”</div>
+<div class="kultur-alinti">“Etmen güzeee çoşlaaammm!”</div>
+<div class="kultur-alinti">“Zaprap durman somadınızı sıkarın.”</div>
+</div>
+</div>
+
+<div class="kultur-kart">
+<h3>03 · Ninniler ve Maniler</h3>
+<p class="aciklama">Bir zamanlar evlerin avlularında, sokaklarında ve akşam sohbetlerinde yankılanan ezgiler…</p>
+<div class="kultur-liste">
+<div class="kultur-alinti"><strong>Oğlum oğlum hop oğlum</strong><br>İpek getir ser oğlum<br>Gizla çarşaf aldusun<br>Sen içinde yat oğlum</div>
+<div class="kultur-alinti">Bulutlar gidiyorsa Asar’a çıkma çarşıya pazara.</div>
+<div class="kultur-alinti">Mendil serdim sicime<br>Selâm söylen cicime<br>Cicimi eller almış<br>Gitme mi benim gücüme</div>
+<div class="kultur-alinti">Dıngıl dıngıl devesi<br>Potur donlu nenesi<br>Yatağı somyayı ne ediyomuş<br>Toprak damın kemesi</div>
+<div class="kultur-alinti">Siygini yiisin hindi key hunu<small>(Yağmuru yersin şimdi, giy şunu.)</small></div>
+<div class="kultur-alinti">Allah beklini veymesin</div>
+</div>
+</div>
+
+<div class="kultur-kart">
+<h3>04 · Kadim Kelimeler</h3>
+<p class="aciklama">Goca Muğla’nın kendine özgü kelime hazinesi. Yöresel söyleyişler, anlamlarıyla birlikte alfabetik sözlük düzeninde…</p>
+<div class="kultur-sozluk">
+<p><b>Ance</b> — Alın</p>
+<p><b>Asamohtu</b> — Akşamüstü</p>
+<p><b>Ayranlamak</b> — Badana sürmek</p>
+<p><b>Pıtırak</b> — Dikenli ot</p>
+<p><b>Böğü</b> — Örümcek</p>
+<p><b>Böyün</b> — Bugün</p>
+<p><b>Bulunca busramak</b> — Yetinmemek</p>
+<p><b>Buymak</b> — Çok üşümek</p>
+<p><b>Cibik</b> — Civciv</p>
+<p><b>Gari</b> — Artık</p>
+<p><b>Çoşlaaa</b> — Çocuklar</p>
+<p><b>Dakışmak</b> — Kovalamak</p>
+<p><b>Dangıramak</b> — Yüksek sesle konuşmak</p>
+<p><b>Dombay</b> — Manda</p>
+<p><b>Du bu yon</b> — Dur biraz</p>
+<p><b>Emme</b> — Ama, lakin</p>
+<p><b>Endeki</b> — Şu, o</p>
+<p><b>Enari</b> — Doğruca, ileriye doğru</p>
+<p><b>Gaba hamırlı</b> — Bazlamaya benzer hamur işi</p>
+<p><b>Gadef sinisi</b> — Kadayıf tepsisi</p>
+<p><b>Ganık</b> — Sürahi</p>
+<p><b>Gara dığan kızartması</b> — Odun ateşinde yapılan kızartma</p>
+<p><b>Gıyısı</b> — Yanı</p>
+<p><b>Gocumanna</b> — Büyükler</p>
+<p><b>Gökgörmedik</b> — Sonradan görme, görgüsüz</p>
+<p><b>Gooşu</b> — Komşu</p>
+<p><b>Çoveş</b> — Güneş</p>
+<p><b>Gücüle</b> — Henüz, şimdi</p>
+<p><b>Guyruklu</b> — Akrep</p>
+<p><b>Güzün</b> — Geçen yıl</p>
+<p><b>İlaana</b> — Lahana</p>
+<p><b>İlenmek</b> — Beddua etmek</p>
+<p><b>İsibinak</b> — Ispanak</p>
+<p><b>Horansa</b> — Pırasa</p>
+<p><b>Masraf görmek</b> — Alışveriş yapmak</p>
+<p><b>Nahasın baken</b> — Nasılsın bakalım</p>
+<p><b>Öteygün</b> — Geçen gün</p>
+<p><b>Posada</b> — Pis ve dağınık</p>
+<p><b>Pusat yumak</b> — Çamaşır yıkamak</p>
+<p><b>Sakramak</b> — Titremek</p>
+<p><b>Şavk</b> — Işık</p>
+<p><b>Şerlenmek</b> — Şımarmak</p>
+<p><b>Şırkarın</b> — Döverim, sarsarım</p>
+<p><b>Sıvıdmak / Zıvıtmak</b> — Cıvık hâle gelmek</p>
+<p><b>Somat / Ümük</b> — Boğaz</p>
+<p><b>Şatır</b> — Güzel, sevimli</p>
+<p><b>Taa bak</b> — İşte orada</p>
+<p><b>Talasırmak</b> — Soluk soluğa kalmak, yorulmak</p>
+<p><b>Teşinmek</b> — Bir şeyi aramak için karıştırmak</p>
+<p><b>Tiğsirmek</b> — Hapşırmak</p>
+<p><b>Tomsarmak</b> — Surat asmak</p>
+<p><b>Tüngümek</b> — Aniden zıplamak</p>
+<p><b>Turkmak</b> — Boğazına takılmak, tıkanmak</p>
+<p><b>Ünlemek</b> — Seslenmek</p>
+<p><b>Vere</b> — Hep, sürekli</p>
+<p><b>Yasdıgeç</b> — Börek açmaya yarayan pereç</p>
+<p><b>Yaşanmak / Yaşak</b> — Konuşmak / Geveze</p>
+<p><b>Yargın</b> — Sırt</p>
+<p><b>Zabala</b> — Sabahleyin</p>
+<p><b>Zapradurma</b> — Zıplayıp durma</p>
+<p><b>Zibzivlemek</b> — Gezip durmak</p>
+</div>
+</div>
+
+<div class="kultur-kapanis">
+<h3>“De Gidi De!”</h3>
+<p><strong>Söz uçar, kültür kalır.</strong> Muğla’nın kadim sözleri; büyüklerimizin yaşam biçimini, mizahını, sevgisini ve dünya görüşünü geleceğe taşıyan kültürel mirasımızdır.</p>
+<p style="margin-top:12px"><strong>Geçmişimizi tanıyalım, dilimizi yaşatalım, kültürümüzü geleceğe aktaralım!</strong></p>
+</div>
+</section>
+
+<section id="ekip">
+<h2>Proje Ekibi</h2>
+<div class="ekip">
+<p><b>Okul</b><br>Turgutreis Anadolu Lisesi</p>
+<p><b>Danışman öğretmen</b><br>Muzaffer Aslı Ercan</p>
+<p><b>Ekip</b><br>Emir Kan, Umut Çetinavcı</p>
+<p><b>Proje</b><br>Dilimizin Zenginlikleri, “Sözün İzinde” Dijital Kelime Panosu</p>
+</div>
+</section>
+</main>
+
+
+
+<footer>
+<b>Sözün İzinde</b>, Dilimizin Zenginlikleri Projesi<br>
+Turgutreis Anadolu Lisesi<br>
+Danışman öğretmen: Muzaffer Aslı Ercan<br>
+Ekip: Emir Kan, Umut Çetinavcı<br>
+Ekim–Kasım 2026
+</footer>
+
+
+</body>
+</html>
